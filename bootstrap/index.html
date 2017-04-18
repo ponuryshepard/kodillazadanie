@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Nazwa</a>
+    		</div>
+		<ul class="nav navbar-nav">
+    		<li class="active"><a href="#">Klik</a></li>
+        	<li><a href="#">Klik</a></li>
+        	<li><a href="#">Klik</a></li>
+        	<li><a href="#">Klik</a></li>
+        </ul>
+  		</div>
+	</nav>
+	
+	<div class="container">
+  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 			<ol class="carousel-indicators">
+      			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      			<li data-target="#myCarousel" data-slide-to="1"></li>
+      			<li data-target="#myCarousel" data-slide-to="2"></li>
+      			<li data-target="#myCarousel" data-slide-to="3"></li>
+    		</ol>
+
+   		<div class="carousel-inner" role="listbox">
+    		<div class="item active example-1"></div>
+    		<div class="item example-2"></div>
+   			<div class="item example-3"></div>
+   			<div class="item example-4"></div>
+    	</div>
+
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      		<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      		<span class="sr-only">Next</span>
+    	</a>
+  		</div>
+	</div>
+	
+	<div class="container">
+	<ul class="nav nav-tabs">
+  		<li class="active"><a data-toggle="tab" href="#osobie">O sobie</a></li>
+  		<li><a data-toggle="tab" href="#hobby">Hobby</a></li>
+  		<li><a data-toggle="tab" href="#praca">Praca</a></li>
+	</ul>
+
+	<div class="tab-content">
+  		<div id="osobie" class="tab-pane fade in active">
+    		<h3>O SOBIE</h3>
+    		<p>Patryk. 26 lat. Urodzony w Miko³owie, od ma³ego mieszka w Rudzie Œl.</p>
+  		</div>
+  	<div id="hobby" class="tab-pane fade">
+    	<h3>HOBBY</h3>
+    	<p>Filmy, muzyka filmowa, architektura i urbanistyka.</p>
+  	</div>
+  	<div id="praca" class="tab-pane fade">
+    	<h3>PRACA</h3>
+    	<p>Pracujê jako konsultant ds. sprzeda¿y w PLAY.</p>
+  	</div>
+	</div>
+	</div>
+	
+	<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">
+  		Okno dialogowe
+	</button>
+	
+	<div id="exampleModal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+     	<div class="modal-content">
+			<div class="modal-header">
+         		<h4>O autorze</h4>
+       		</div>
+       <div class="modal-body">
+        <p>Patryk Bartodziej, lat 26. Od dziecka zwi¹zany z rodzinnym miastem - Rud¹ Œl¹sk¹. Kocha filmy, eurowizjê oraz marzy o podró¿y po krajach azjatyckich.</p>
+       </div>
+       <div class="modal-footer">
+        <p>Stopka</p>
+         <button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij</button>
+       </div>
+		</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>

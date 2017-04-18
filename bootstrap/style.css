@@ -1,0 +1,19 @@
+[class*="example"]{
+  min-height:400px;
+}
+.example-1 {
+    background-color: #FF66CC;
+}
+.example-2 {
+    background-color: #9900FF;
+}
+.example-3 {
+    background-color: #33FFCC;
+}
+.example-4 {
+    background-color: #CCFF00;
+}
+
+.tab-pane {
+  padding: 10px;
+}
